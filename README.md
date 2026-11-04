@@ -6,6 +6,19 @@ Companion code for
 
 Every result in the paper is proved by hand. This repository is a second, independent check of the computations, mostly because the center is hard to verify by eye. The central lifts mix Dickson polynomials with the normal element C, and a wrong sign or a wrong power of p there would not be noticed by reading. None of the proofs depends on this code.
 
+## Try it in the browser
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/helbertvenegas/g14641-verification/blob/main/explore.ipynb)
+
+The notebook `explore.ipynb` opens in Google Colab, so nothing has to be installed. You choose the parameters, either one of the four cases of the paper (p of order n, h = p⁻¹, 1, p or −p⁻¹) or a general triple (N, r, s), and get:
+
+- the PI degree, the Nakayama automorphism and whether G is Calabi–Yau;
+- the ozone group, with its structure and, when it is small, its elements;
+- generators of Z(G) written in terms of x1, Q_e, C, y1, y2, each one checked to be central by exact multiplication in G (f an indeterminate);
+- the Hilbert series of Z(G) and whether it is Gorenstein.
+
+The last cells let you multiply elements of G yourself. The notebook uses the same code as the checks below, and `check_09_notebook_helpers.py` tests its output against the paper.
+
 ## What is checked
 
 The algebra is implemented from its defining relations only, through the PBW basis `x1^i x2^j y1^k y2^l`. Products are computed exactly. In the root-of-unity case the coefficients live in **Q(ζ_N)[f], with f an indeterminate**, so the checks hold for every value of f and not just for one number. For identities that hold for all parameters, the coefficients live in Q[p,h,f]. The multiplication is checked against a naive rewriting with the six relations and against associativity on random elements before anything else is trusted.
@@ -22,6 +35,7 @@ Parameters follow Section 3 of the paper: ζ is a primitive N-th root of unity, 
 | `check_06_center_general.py` | `lem:Lambda`, `thm:gencenter`(i),(iii), `lem:proj`, `lem:arith`, the non-Gorenstein example, `lem:Ai`, `eq:Frel`, `thm:qhyp`(i) | lifts and dimensions: all admissible N ≤ 6 plus 14 cases up to N = 12; Gorenstein: all admissible N ≤ 18, one triple per choice of ζ | exact, except the upper bound in `thm:gencenter`(i) (see below) |
 | `check_07_presentations.py` | `prop:relation`, `eq:LW`, `thm:center`, `thm:sing` (n = 3, 4), `thm:untwisted`, `rem:rubiano`, `thm:hpcenter`, `prop:hppres` | n ≤ 10 for h = p⁻¹, 1; n ≤ 12 for h = p | exact (Gröbner bases over Q for `thm:sing`) |
 | `check_08_nakayama.py` | `prop:CY` (eq:nakayama) via the Koszul dual G^! | all admissible N ≤ 12 | over F_P |
+| `check_09_notebook_helpers.py` | the helpers behind `explore.ipynb`: ozone structure vs `cor:ozcases`, centrality of the listed generators, Hilbert series in the hypersurface cases | n ≤ 40; all admissible N ≤ 8 and the four cases with n ≤ 12 | exact |
 
 A few notes on what "checked" means in specific places.
 
@@ -61,6 +75,9 @@ g14641/algebra.py   G(p,f,h) through the PBW normal form; Dickson polynomials
 g14641/torus.py     the quantum torus on x1, T, y1, y2
 g14641/lattice.py   Omega, the lattice L, PI degree, Hilbert bases, ozone groups
 g14641/setup.py     b, c, alpha, Q_k, C, Lambda_m and the characters of lem:normal
+g14641/explore.py   helpers for the notebook
+explore.ipynb       interactive notebook (Colab)
+tools/              builds explore.ipynb (needs nbformat)
 checks/             one script per section of the paper
 results/            logs
 ```

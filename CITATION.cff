@@ -8,7 +8,7 @@ authors:
   - family-names: "Venegas"
     given-names: "Helbert"
     affiliation: "Universidad Militar Nueva Granada"
-version: "1.0.0"
+version: "1.1.0"
 date-released: "2026-11-03"
 license: MIT
 repository-code: "https://github.com/helbertvenegas/g14641-verification"
