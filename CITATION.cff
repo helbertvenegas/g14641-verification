@@ -11,7 +11,7 @@ authors:
 version: "1.0.0"
 date-released: "2026-11-03"
 license: MIT
-repository-code: "https://github.com/OWNER/g14641-verification"
+repository-code: "https://github.com/helbertvenegas/g14641-verification"
 keywords:
   - "double Ore extension"
   - "PI degree"
