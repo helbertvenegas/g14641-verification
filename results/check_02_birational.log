@@ -1,0 +1,12 @@
+== 02 birational model (sec:birational)
+  ok   thm:birational: x2 := x1(T+u) satisfies eq:G: 464/464 cases
+  ok   eq:t: 1/1 cases
+  ok   lem:inner: delta_0 is inner, implemented by u: 1/1 cases
+  ok   eq:C: C = x1 T beta in Q(G): 1/1 cases
+  ok   rem:CGWZ17: x2' = x2 - x1 u is sigma-normal: 1/1 cases
+  ok   eq:Omega matrix as printed = relations eq:qas: 458/458 cases
+  ok   eq:rhobeta: 458/458 cases
+  ok   lem:normal (iv): Q_e = x1^e(T^e + b^e rho^e + c^e rho^-e): 458/458 cases
+  ok   prop:rationalcenter eq:congruences = rows of Omega a = 0: 458/458 cases
+  ok   prop:torus / eq:Lmult: M_a central <=> a in L: 52/52 cases
+  -- 2352 checks, 0 failures, 14.9s

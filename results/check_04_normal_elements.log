@@ -1,0 +1,23 @@
+== 04 normal elements and Dickson polynomials (sec:normal)
+  ok   prop:dickson eq:dicksonw: 16/16 cases
+  ok   prop:dickson eq:dickson2k: 16/16 cases
+  ok   prop:dickson eq:dicksonhom: 16/16 cases
+  ok   lem:qdickson eq:prodroots: 11/11 cases
+  ok   lem:qdickson eq:qdickson: 9/9 cases
+  ok   lem:grmon (i): lf(ab) = lf(a) lf(b) in the quantum affine space: 52/52 cases
+  ok   lem:grmon (ii): central monomials of gr G <-> L: 52/52 cases
+  ok   lem:grmon (iii): (i,j,k,l) in L => j=k=l mod e, q^{2i}=1: 52/52 cases
+  ok   lem:normal (ii): D_k(M, alpha x1^2) = p^k Q_k I: 520/520 cases
+  ok   lem:normal (iii) table: x1: 260/260 cases
+  ok   lem:normal (iii) table: Q_k: 520/520 cases
+  ok   lem:normal (iii) table: C: 260/260 cases
+  ok   lem:normal (iii) table: y1^r: 520/520 cases
+  ok   lem:normal (iii) table: y2^r: 520/520 cases
+  ok   after lem:normal: x1^{ord q} central: 260/260 cases
+  ok   after lem:normal: Y1, Y2, U central iff h^n = 1: 260/260 cases
+  ok   lem:finite: R = k[x1^N, Q_e^N, y1^N, y2^N] is central: 34/34 cases
+  ok   lem:finite: leading forms x1^N, x2^{eN}, y1^N, y2^N: 34/34 cases
+  ok   after lem:normal: x1^m central iff q^m = 1: 100/100 cases
+  ok   after lem:normal: Q_m central iff h^m = 1: 100/100 cases
+  ok   after lem:normal: y1^m y2^m anticommutes with y1, y2: 100/100 cases
+  -- 3712 checks, 0 failures, 3.0s

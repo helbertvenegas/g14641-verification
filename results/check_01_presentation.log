@@ -1,0 +1,19 @@
+== 01 presentation (sec:prelim)
+  ok   prop:ore PBW basis: associativity on generator triples: 3/3 cases
+  ok   prop:ore PBW basis: associativity on random elements: 3/3 cases
+  ok   eq:GZZ -> eq:G: relation for y1 x2~: 1/1 cases
+  ok   eq:GZZ -> eq:G: relation for y2 x2~: 1/1 cases
+  ok   eq:GZZ -> eq:G: x2~ commutes with x1: 1/1 cases
+  ok   prop:ore delta is a sigma-derivation (y1,x1): 1/1 cases
+  ok   prop:ore delta is a sigma-derivation (y2,x1): 1/1 cases
+  ok   prop:ore delta is a sigma-derivation (y2,y1): 1/1 cases
+  ok   prop:ore eq:sigmadelta x2 y1: 1/1 cases
+  ok   prop:ore eq:sigmadelta x2 y2: 1/1 cases
+  ok   rem:pbw skew PBW relations: 1/1 cases
+  ok   lem:rules eq:rules1: 8/8 cases
+  ok   lem:rules eq:rules2: 8/8 cases
+  ok   lem:rules eq:yrX: 8/8 cases
+  ok   eq:phixi phi_{xi,theta,eta} preserves eq:G: 3/3 cases
+  ok   engine: GAlgebra.mul agrees with naive rewriting by eq:G: 1/1 cases
+  ok   control: a wrong identity is reported as nonzero: 1/1 cases
+  -- 44 checks, 0 failures, 0.2s

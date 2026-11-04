@@ -1,0 +1,11 @@
+== 03 PI degree (lem:index, thm:PIdeg)
+  (59398 admissible triples with N <= 60)
+  ok   lem:index Pf(Omega) = 2r(r+s): 1/1 cases
+  ok   lem:index [Z^4:L] = (N^2/gcd(N,2r(r+s)))^2 (Smith form): 59398/59398 cases
+  ok   thm:PIdeg PIdeg = sqrt[Z^4:L] is an integer: 59398/59398 cases
+  ok   lem:index [Z^4:L] = |image of Omega mod N| (brute force): 260/260 cases
+  ok   thm:PIdeg special value h=1: 58/58 cases
+  ok   thm:PIdeg special value h=p: 58/58 cases
+  ok   thm:PIdeg special value h=p^-1: 58/58 cases
+  ok   intro: twist h=p^-1 -> h=1 changes PIdeg n -> n^2: 29/29 cases
+  -- 119260 checks, 0 failures, 83.0s

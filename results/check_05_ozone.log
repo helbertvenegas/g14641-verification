@@ -1,0 +1,15 @@
+== 05 ozone groups (sec:ozone)
+  ok   cor:ozcases explicit list: 152/152 cases
+  ok   cor:ozcases isomorphism type: 152/152 cases
+  ok   rem:ozCY |Oz| divides rank = PIdeg^2: 152/152 cases
+  ok   rem:ozCY |Oz| < rank (so G is not a skew polynomial ring): 152/152 cases
+  ok   thm:B special cases (n odd): 38/38 cases
+  ok   rem:ozCY nu_G in Oz(G): 7354/7354 cases
+  ok   thm:hdetCY (i) <=> (iii): 7354/7354 cases
+  ok   rem:ozCY |Oz| divides PIdeg^2 (general): 7354/7354 cases
+  ok   cor:ozcases (i) conjugation by normal elements: 12/12 cases
+  ok   lem:hdet trace expansion: leading term xi^-2 eta^-2 t^-4: 2/2 cases
+  ok   lem:hdet phi(x1 C) = xi^2 eta^2 x1 C: 4/4 cases
+  ok   thm:hdetCY (i) <=> (ii): x1 C central iff q^2 = 1: 134/134 cases
+  ok   thm:ozall graded part: fixes Z(G) <=> eq:ozall: 52/52 cases
+  -- 22912 checks, 0 failures, 14.9s

@@ -1,0 +1,13 @@
+run: 2026-11-03T20:45:51
+python 3.13.18, python-flint 0.9.0, sympy 1.14.0, numpy 2.5.3
+
+PASS  check_01_presentation.py           -- 44 checks, 0 failures, 0.2s  (0s)
+PASS  check_02_birational.py             -- 2352 checks, 0 failures, 14.9s  (15s)
+PASS  check_03_pi_degree.py              -- 119260 checks, 0 failures, 83.0s  (83s)
+PASS  check_04_normal_elements.py        -- 3712 checks, 0 failures, 3.0s  (3s)
+PASS  check_05_ozone.py                  -- 22912 checks, 0 failures, 14.9s  (15s)
+PASS  check_06_center_general.py         -- 1271 checks, 0 failures, 33.2s  (34s)
+PASS  check_07_presentations.py          -- 127 checks, 0 failures, 0.6s  (1s)
+PASS  check_08_nakayama.py               -- 1374 checks, 0 failures, 9.9s  (10s)
+
+ALL PASSED
