@@ -9,4 +9,4 @@
   ok   lem:normal (iv): Q_e = x1^e(T^e + b^e rho^e + c^e rho^-e): 458/458 cases
   ok   prop:rationalcenter eq:congruences = rows of Omega a = 0: 458/458 cases
   ok   prop:torus / eq:Lmult: M_a central <=> a in L: 52/52 cases
-  -- 2352 checks, 0 failures, 14.9s
+  -- 2352 checks, 0 failures, 16.7s

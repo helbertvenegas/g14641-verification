@@ -76,4 +76,4 @@
   ok   lem:Ai (i) A_i A_j = lambda_ij A_j A_i: 56/56 cases
   ok   lem:Ai (ii) eq:Frel: 56/56 cases
   ok   thm:qhyp (i) leading forms of A^w (w3<e) are distinct: 56/56 cases
-  -- 1271 checks, 0 failures, 33.2s
+  -- 1271 checks, 0 failures, 38.6s

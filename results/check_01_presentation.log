@@ -16,4 +16,4 @@
   ok   eq:phixi phi_{xi,theta,eta} preserves eq:G: 3/3 cases
   ok   engine: GAlgebra.mul agrees with naive rewriting by eq:G: 1/1 cases
   ok   control: a wrong identity is reported as nonzero: 1/1 cases
-  -- 44 checks, 0 failures, 0.2s
+  -- 44 checks, 0 failures, 0.1s

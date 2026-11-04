@@ -12,4 +12,4 @@
   ok   lem:hdet phi(x1 C) = xi^2 eta^2 x1 C: 4/4 cases
   ok   thm:hdetCY (i) <=> (ii): x1 C central iff q^2 = 1: 134/134 cases
   ok   thm:ozall graded part: fixes Z(G) <=> eq:ozall: 52/52 cases
-  -- 22912 checks, 0 failures, 14.9s
+  -- 22912 checks, 0 failures, 16.4s

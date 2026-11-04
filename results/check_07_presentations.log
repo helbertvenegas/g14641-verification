@@ -28,4 +28,4 @@
   ok   thm:hpcenter (ii) Hilbert series of the presentation = k[S]: 2/2 cases
   ok   thm:sing each component lies in Sing: 2/2 cases
   ok   thm:sing Sing lies in the union of the components: 2/2 cases
-  -- 127 checks, 0 failures, 0.6s
+  -- 127 checks, 0 failures, 0.7s

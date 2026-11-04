@@ -1,0 +1,8 @@
+== 09 notebook helpers (explore.py)
+  ok   explore: Oz(G) invariant factors = cor:ozcases: 152/152 cases
+  ok   explore: listed generators are central with the right leading form: 174/174 cases
+  ok   explore: summary PI degree: 174/174 cases
+  ok   explore: h=p^-1 series numerator is 1 - t^{3n} (hypersurface, thm:center): 8/8 cases
+  ok   explore: h=1, n odd, polynomial center: 4/4 cases
+  ok   explore: h=1, n even, numerator 1 - t^{3n} (thm:untwisted): 4/4 cases
+  -- 516 checks, 0 failures, 1.6s

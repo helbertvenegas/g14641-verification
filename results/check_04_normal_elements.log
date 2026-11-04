@@ -20,4 +20,4 @@
   ok   after lem:normal: x1^m central iff q^m = 1: 100/100 cases
   ok   after lem:normal: Q_m central iff h^m = 1: 100/100 cases
   ok   after lem:normal: y1^m y2^m anticommutes with y1, y2: 100/100 cases
-  -- 3712 checks, 0 failures, 3.0s
+  -- 3712 checks, 0 failures, 3.5s

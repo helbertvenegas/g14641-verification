@@ -8,4 +8,4 @@
   ok   thm:PIdeg special value h=p: 58/58 cases
   ok   thm:PIdeg special value h=p^-1: 58/58 cases
   ok   intro: twist h=p^-1 -> h=1 changes PIdeg n -> n^2: 29/29 cases
-  -- 119260 checks, 0 failures, 83.0s
+  -- 119260 checks, 0 failures, 87.4s
