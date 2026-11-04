@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it together with the paper."
+title: "Computational checks for: PI degree, center and ozone group of the double extension family G of type (14641)"
+authors:
+  - family-names: "Gómez"
+    given-names: "James"
+    affiliation: "Universidad Pedagógica y Tecnológica de Colombia"
+  - family-names: "Venegas"
+    given-names: "Helbert"
+    affiliation: "Universidad Militar Nueva Granada"
+version: "1.0.0"
+date-released: "2026-11-03"
+license: MIT
+repository-code: "https://github.com/OWNER/g14641-verification"
+keywords:
+  - "double Ore extension"
+  - "PI degree"
+  - "ozone group"
+  - "center"
+  - "Artin-Schelter regular algebra"
